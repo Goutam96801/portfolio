@@ -20,7 +20,7 @@ class Navbar extends Component {
             <div>
                 <nav className="navbar navbar-expand-lg bg-body-tertiary">
                     <div className="container-fluid">
-                        <a className="navbar-brand" href="#"><span className="highlight">G</span>outam</a>
+                        <a className="navbar-brand" href="#home"><span className="highlight">G</span>outam</a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
@@ -44,15 +44,16 @@ class Navbar extends Component {
                             </ul>
                         </div>
                         <div className='social-media'>
+
                             <ul className='navbar-nav'>
                                 <li className='nav-item'>
-                                    <a href='https://github.com/Goutam96801' target='_blank'><i class="fa-brands fa-github"></i></a>
+                                    <a href='https://github.com/Goutam96801' target='_blank'><i className="fa-brands fa-github"></i></a>
                                 </li>
                                 <li className='nav-item'>
-                                    <a href='https://www.linkedin.com/in/goutam-kumar-choudhary-74601a181/' target='_blank'><i class="fa-brands fa-linkedin"></i></a>
+                                    <a href='https://www.linkedin.com/in/goutam-kumar-choudhary-74601a181/' target='_blank'><i className="fa-brands fa-linkedin"></i></a>
                                 </li>
                                 <li className='nav-item'>
-                                    <a href='https://instagram.com/aryan.gautam19?igshid=MzNlNGNkZWQ4Mg==' target='_blank'><i class="fa-brands fa-instagram"></i></a>
+                                    <a href='https://instagram.com/aryan.gautam19?igshid=MzNlNGNkZWQ4Mg==' target='_blank'><i className="fa-brands fa-instagram"></i></a>
                                 </li>
                             </ul>
                         </div>

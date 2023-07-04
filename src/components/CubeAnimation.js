@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
-
 export class CubeAnimation extends Component {
+
     render() {
         return (
             <div>
@@ -17,5 +17,4 @@ export class CubeAnimation extends Component {
         )
     }
 }
-
 export default CubeAnimation

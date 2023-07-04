@@ -4,7 +4,7 @@ export class Skill extends Component {
     render() {
         return (
             <div>
-                <h2 className="heading">Languages and framework i know</h2>
+                <h2 className="heading">Languages and framework i<span className='highlight'> know</span></h2>
                 <div className="seperator"></div>
                 <div className="skill-container">
                     <div className="skill-card card1">

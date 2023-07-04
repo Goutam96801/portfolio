@@ -21,42 +21,42 @@ export class Project extends Component {
                             <img src={project1} className='project-img' alt="" />
                             <div className="content">
                                 <h1 className="project-name">LIC Agent Portal</h1>
-                                <a href='https://github.com/Goutam96801/LIC_AGENT_HELPER.git' className='project-link' target='_blank'>Github link</a>
+                                <a href='https://github.com/Goutam96801/LIC_AGENT_HELPER.git' className='btn project-link' target='_blank'>Github link</a>
                             </div>
                         </div>
                         <div className="project-card">
                             <img src={project2} className='project-img' alt="" />
                             <div className="content">
                                 <h1 className="project-name">Blog Interface</h1>
-                                <a href='https://github.com/Goutam96801/Blogging_Interface.git' className='project-link' target='_blank'>Github link</a>
+                                <a href='https://github.com/Goutam96801/Blogging_Interface.git' className='btn project-link' target='_blank'>Github link</a>
                             </div>
                         </div>
                         <div className="project-card">
                             <img src={project3} className='project-img' alt="" />
                             <div className="content">
-                                <h1 className="project-name">Books Manage System</h1>
-                                <a href='https://github.com/Goutam96801/Book-Record-Management.git' className='project-link' target='_blank'>Github link</a>
+                                <h1 className="project-name">Books Record Management System</h1>
+                                <a href='https://github.com/Goutam96801/Book-Record-Management.git' className='btn project-link' target='_blank'>Github link</a>
                             </div>
                         </div>
                         <div className="project-card">
                             <img src={project4} className='project-img' alt="" />
                             <div className="content">
                                 <h1 className="project-name">Text Converter</h1>
-                                <a href='https://github.com/Goutam96801/TextConverter.git' className='project-link' target='_blank'>Github link</a>
+                                <a href='https://github.com/Goutam96801/TextConverter.git' className='btn project-link' target='_blank'>Github link</a>
                             </div>
                         </div>
                         <div className="project-card">
                             <img src={project5} className='project-img' alt="" />
                             <div className="content">
-                                <h1 className="project-name">Task Manage App</h1>
-                                <a href='https://github.com/Goutam96801/Task-Management-Application.git' className='project-link' target='_blank'>Github link</a>
+                                <h1 className="project-name">Task Management App</h1>
+                                <a href='https://github.com/Goutam96801/Task-Management-Application.git' className='btn project-link' target='_blank'>Github link</a>
                             </div>
                         </div>
                         <div className="project-card">
                             <img src={project6} className='project-img' alt="" />
                             <div className="content">
                                 <h1 className="project-name">Zomato Clone</h1>
-                                <a href='https://github.com/Goutam96801/Shopping_Page.git' className='project-link' target='_blank'>Github link</a>
+                                <a href='https://github.com/Goutam96801/Shopping_Page.git' className='btn project-link' target='_blank'>Github link</a>
                             </div>
                         </div>
                     </div>

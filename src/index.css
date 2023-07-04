@@ -22,7 +22,17 @@ body {
 
 .navbar-brand {
     color: #fff;
+    transition: .5s;
 }
+
+.navbar-brand:hover .highlight {
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #ff3559;
+}
+
 
 
 .navbar-toggler {
@@ -36,6 +46,7 @@ body {
 
 .navbar-nav .nav-link:hover {
     color: #ff4559 !important;
+    transform: scale(1.05);
 }
 
 .navbar-nav .nav-link.active {
@@ -46,43 +57,9 @@ body {
     padding: 0 14px 0 14px;
 }
 
-.fa-github {
-    font-size: 28px;
-    color: #000;
-    background-color: #fff;
-    border-radius: 50%;
-    transition: .5s;
-}
-
-.fa-github:hover {
-    transform: scale(1.2)
-}
-
-.fa-linkedin:hover {
-    transform: scale(1.2)
-}
-
-.fa-instagram:hover {
-    transform: scale(1.2)
-}
-
-.fa-linkedin {
-    font-size: 28px;
-    color: #0e76a8;
-    transition: .5s;
-}
-
-.fa-instagram {
-    font-size: 28px;
-    background: linear-gradient(to bottom, #515bd4, #8134Af, #dd2a7b, #feda77, #f58529);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    border-radius: 50%;
-    transition: .5s;
-}
-
 .highlight {
     color: #ff3559;
+    transition: .5s;
 }
 
 .home {
@@ -113,9 +90,54 @@ body {
 .image {
     width: 30%;
     position: absolute;
-    right: 20px;
+    right: 50px;
     border-radius: 20px;
+    transition: .5s;
+    cursor: pointer;
+    border: 1px solid #333;
+    box-shadow: 0 0 20px rgba(120, 115, 115, 0.3);
+
 }
+
+.image:hover {
+    transform: scale(1.1);
+}
+
+.fa-github {
+    font-size: 28px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.fa-github:hover {
+    transform: scale(1.2)
+}
+
+.fa-linkedin {
+    font-size: 28px;
+    color: #0e76a8;
+    transition: .5s;
+}
+
+.fa-linkedin:hover {
+    transform: scale(1.2)
+}
+
+.fa-instagram {
+    font-size: 28px;
+    background: linear-gradient(to bottom, #515bd4, #8134Af, #dd2a7b, #feda77, #f58529);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.fa-instagram:hover {
+    transform: scale(1.2)
+}
+
 
 .highlight {
     color: #ff3559;
@@ -132,6 +154,7 @@ body {
     color: #1d1d1d;
     z-index: 2;
 }
+
 
 .profession::before {
     content: '';
@@ -172,8 +195,9 @@ body {
 }
 
 .btn:hover {
-    background-color: #fff;
-    color: #ff3559;
+    transform: scale(1.1);
+    background: #ff3559;
+    color: #fff;
 }
 
 .about {
@@ -245,9 +269,7 @@ body {
         left: 50%;
         transform: translateX(-60%);
     }
-}
 
-@media (max-width:992px) {
     .social-media {
         display: none;
     }
@@ -261,6 +283,7 @@ body {
     transform-style: preserve-3d;
     transform: rotateX(0deg) rotateY(0deg);
     animation: rotate 10s infinite linear;
+    cursor: pointer;
 }
 
 .face {
@@ -306,46 +329,76 @@ body {
 
 @keyframes rotate {
     0% {
-        transform: rotateX(0deg) rotateY(0deg);
+        transform: rotateX(0deg) rotateY(180deg);
     }
 
     50% {
-        transform: rotateX(180deg) rotateY(180deg);
+        transform: rotateX(0deg) rotateY(0deg);
     }
 
     100% {
-        transform: rotateX(360deg) rotateY(360deg);
+        transform: rotateX(180deg) rotateY(0deg);
     }
 }
 
 .fa-square-js {
     font-size: 100px;
     color: #EFD81D;
+    transition: .3s;
+}
+
+.fa-square-js:hover {
+    transform: scale(1.1);
 }
 
 .fa-react {
     font-size: 100px;
     color: #5ED4F4;
+    transition: .3s;
+}
+
+.fa-react:hover {
+    transform: scale(1.1);
 }
 
 .fa-node-js {
     font-size: 100px;
     color: #68A063;
+    transition: .3s;
+}
+
+.fa-node-js:hover {
+    transform: scale(1.1);
 }
 
 .fa-html5 {
     font-size: 100px;
-    color: #F06529
+    color: #F06529;
+    transition: .3s;
+}
+
+.fa-html5:hover {
+    transform: scale(1.1);
 }
 
 .fa-css3-alt {
     font-size: 100px;
     color: #28A4D9;
+    transition: .3s;
+}
+
+.fa-css3-alt:hover {
+    transform: scale(1.1);
 }
 
 .fa-database {
     font-size: 100px;
     color: #ff4559;
+    transition: .3s;
+}
+
+.fa-database:hover {
+    transform: scale(1.1);
 }
 
 .skill-container {
@@ -356,15 +409,14 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    transition: .5s;
 }
-
-
 
 .skill-card {
     position: relative;
     height: 200px;
     width: 200px;
-    margin: 20px;
+    margin: 0 20px 20px 20px;
     padding: 20px;
     border-radius: 10px;
     border: 1px solid #464646;
@@ -379,6 +431,10 @@ body {
     color: #464646;
     line-height: 200px;
     transition: .5s;
+}
+
+.skill-card:hover .skill {
+    transform: scale(1.1);
 }
 
 .skill-card:hover .skill {
@@ -499,23 +555,16 @@ body {
 
 .project-name {
     font-weight: 300;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     text-align: center;
     color: #fff;
 
 }
 
 .project-link {
-    text-decoration: none;
-    background-color: #ff4559;
     padding: 5px;
-    border-radius: 8px;
-    color: #fff;
-    transition: .5s;
-}
-
-.project-link:hover {
-    opacity: 0.7;
+    position: absolute;
+    bottom: 15px;
 }
 
 .tags {
@@ -532,6 +581,8 @@ body {
 .project-card.hide {
     display: none;
 }
+
+/* contact us */
 
 .contact-form {
     width: 100%;
