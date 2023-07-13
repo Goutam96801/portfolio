@@ -21,6 +21,7 @@ export class Project extends Component {
                             <img src={project1} className='project-img' alt="" />
                             <div className="content">
                                 <h1 className="project-name">LIC Agent Portal</h1>
+                                <a href='https://eager-foal-battledress.cyclic.app/' className='visit-link' target='_blank'>Visit</a>
                                 <a href='https://github.com/Goutam96801/LIC_AGENT_HELPER.git' className='btn project-link' target='_blank'>Github link</a>
                             </div>
                         </div>
@@ -28,6 +29,7 @@ export class Project extends Component {
                             <img src={project2} className='project-img' alt="" />
                             <div className="content">
                                 <h1 className="project-name">Blog Interface</h1>
+                                <a href='https://ill-kangaroo.cyclic.app/' className='visit-link' target='_blank'>Visit</a>
                                 <a href='https://github.com/Goutam96801/Blogging_Interface.git' className='btn project-link' target='_blank'>Github link</a>
                             </div>
                         </div>
@@ -42,6 +44,7 @@ export class Project extends Component {
                             <img src={project4} className='project-img' alt="" />
                             <div className="content">
                                 <h1 className="project-name">Text Converter</h1>
+                                <a href='https://textconverters.netlify.app/' className='visit-link' target='_blank'>Visit</a>
                                 <a href='https://github.com/Goutam96801/TextConverter.git' className='btn project-link' target='_blank'>Github link</a>
                             </div>
                         </div>
@@ -49,14 +52,16 @@ export class Project extends Component {
                             <img src={project5} className='project-img' alt="" />
                             <div className="content">
                                 <h1 className="project-name">Task Management App</h1>
+                                <a href='https://taskmanagements.netlify.app/' className='visit-link' target='_blank'>Visit</a>
                                 <a href='https://github.com/Goutam96801/Task-Management-Application.git' className='btn project-link' target='_blank'>Github link</a>
                             </div>
                         </div>
                         <div className="project-card">
                             <img src={project6} className='project-img' alt="" />
                             <div className="content">
-                                <h1 className="project-name">Zomato Clone</h1>
-                                <a href='https://github.com/Goutam96801/Shopping_Page.git' className='btn project-link' target='_blank'>Github link</a>
+                                <h1 className="project-name">Zomato Landing Page</h1>
+                                <a href='https://goutam96801.github.io/zomato-landing-page/' className='visit-link' target='_blank'>Visit</a>
+                                <a href='https://github.com/Goutam96801/zomato-landing-page.git' className='btn project-link' target='_blank'>Github link</a>
                             </div>
                         </div>
                     </div>

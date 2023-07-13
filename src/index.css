@@ -186,7 +186,7 @@ body {
 .btn {
     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 50px;
+    border-radius: 20px;
     background: #ff3559;
     color: #fff;
     text-transform: capitalize;
@@ -223,10 +223,28 @@ body {
 }
 
 .seperator {
-    width: 25%;
-    margin: 20px auto;
-    position: relative;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    background: linear-gradient(to right, red, blue);
+    background-size: 200% 100%;
+    animation: colorChange 2s linear infinite;
+}
 
+@keyframes colorChange {
+    0% {
+        background-position: left;
+    }
+
+    50% {
+        background-position: right;
+    }
+
+    100% {
+        background-position: left;
+    }
 }
 
 .about-me-container {
@@ -260,6 +278,18 @@ body {
 @media (max-width: 720px) {
     .about-para table tr td {
         padding: 8px;
+    }
+
+    .hero-heading {
+        font-size: 1.5rem;
+    }
+
+    .heading {
+        font-size: 2.5rem;
+    }
+
+    .sub-heading {
+        font-size: 1rem;
     }
 }
 
@@ -633,4 +663,21 @@ body {
     background-color: #ff3559;
     text-transform: capitalize;
     line-height: 30px;
+}
+
+.visit-link {
+    background-color: #1b790c;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+    transition: .5s;
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    border: none;
+}
+
+.visit-link:hover {
+    transform: scale(1.04);
 }
