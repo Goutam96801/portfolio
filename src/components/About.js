@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import CubeAnimation from './CubeAnimation'
-import Resume from './Resume.docx';
+import Resume from '../files/Resume.docx';
+import '../styles/About.css';
 export class About extends Component {
     render() {
         return (

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import emailjs from 'emailjs-com';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import '../styles/ContactUs.css';
 
 class ContactUs extends Component {
     constructor(props) {

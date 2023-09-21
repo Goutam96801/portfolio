@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
-import project1 from './project1.png'
-import project2 from './project2.png'
-import project3 from './project3.svg'
-import project4 from './project4.png'
-import project5 from './project5.png'
-import project6 from './project6.png'
+import project1 from '../files/project1.png'
+import project2 from '../files/project2.png'
+import project3 from '../files/project3.svg'
+import project4 from '../files/project4.png'
+import project5 from '../files/project5.png'
+import project6 from '../files/project6.png'
+import '../styles/Project.css'
 
 export class Project extends Component {
     render() {

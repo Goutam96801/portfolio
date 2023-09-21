@@ -1,0 +1,87 @@
+.navbar {
+    background: #1d1d1d !important;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.navbar-brand {
+    color: #fff;
+    transition: .5s;
+}
+
+.navbar-brand:hover .highlight {
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #ff3559;
+}
+
+
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.nav-link {
+    color: #fff !important;
+    transition: .3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff4559 !important;
+    transform: scale(1.05);
+}
+
+.navbar-nav .nav-link.active {
+    color: #ff3559 !important;
+}
+
+.nav-item {
+    padding: 0 14px 0 14px;
+}
+
+.highlight {
+    color: #ff3559;
+    transition: .5s;
+}
+
+
+
+
+.fa-github {
+    font-size: 28px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.fa-github:hover {
+    transform: scale(1.2)
+}
+
+.fa-linkedin {
+    font-size: 28px;
+    color: #0e76a8;
+    transition: .5s;
+}
+
+.fa-linkedin:hover {
+    transform: scale(1.2)
+}
+
+.fa-instagram {
+    font-size: 28px;
+    background: linear-gradient(to bottom, #515bd4, #8134Af, #dd2a7b, #feda77, #f58529);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.fa-instagram:hover {
+    transform: scale(1.2)
+}

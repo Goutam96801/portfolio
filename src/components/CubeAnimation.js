@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import '../styles/CubeAnimation.css'
 
 export class CubeAnimation extends Component {
 

@@ -4,6 +4,7 @@ import About from './About';
 import Skill from './Skill';
 import Project from './Project';
 import ContactUs from './ContactUs';
+import '../styles/Navbar.css';
 
 class Navbar extends Component {
 

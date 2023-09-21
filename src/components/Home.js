@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
-import profileImage from './profile.png';
+import profileImage from '../files/profile.png';
+import '../styles/Home.css'
+
 export class Home extends Component {
     handleClick = (event, sectionId) => {
         event.preventDefault(); // Prevent the default anchor link behavior
